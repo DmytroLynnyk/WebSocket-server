@@ -2,11 +2,11 @@
   "name": "corezoid-websocket",
   "version": "1.0.0",
   "description": "WebSocket server for Corezoid push notifications",
-  "main": "index.js",
+  "main": "usercode/index.js",
   "dependencies": {
     "ws": "^8.13.0"
   },
   "scripts": {
-    "start": "node usercode.js"
+    "start": "node usercode/index.js"
   }
 }
